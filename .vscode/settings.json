@@ -1,0 +1,8 @@
+{
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "editor.formatOnSave": true,
+    "[markdown]": {
+        "editor.defaultFormatter": "antfu.slidev"
+    }
+}
