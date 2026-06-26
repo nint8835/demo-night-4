@@ -9,8 +9,7 @@
   },
   "dependencies": {
     "@slidev/cli": "^52.16.0",
-    "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest",
+    "slidev-theme-field-manual": "github:pjdoland/slidev-theme-field-manual",
     "vue": "^3.5.33"
   }
 }
