@@ -258,6 +258,30 @@ fig2Label: The aircraft
 </style>
 
 ---
+layout: two-images
+sectionNumber: "3"
+
+fig1Label: Of course the irvings have private jets
+fig2Label: ...What?
+---
+
+## Some expected things, some less expected things
+
+<template v-slot:image1>
+    <img src="./images/irving.png" alt="Irvings" />
+</template>
+
+<template v-slot:image2>
+    <img src="./images/what.png" alt="What" />
+</template>
+
+<style>
+    .ti-image-frame img {
+        object-fit: contain;
+    }
+</style>
+
+---
 layout: end
 ---
 
