@@ -12,5 +12,8 @@
     "@slidev/cli": "^52.16.0",
     "slidev-theme-field-manual": "github:pjdoland/slidev-theme-field-manual",
     "vue": "^3.5.33"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.61.1"
   }
 }
