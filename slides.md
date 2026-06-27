@@ -197,6 +197,67 @@ figLabel: Example post
 </style>
 
 ---
+layout: image-right
+sectionNumber: "3"
+
+figLabel: Notifications for common airlines
+---
+
+## _Far_ more of the usual planes than you'd expect
+
+<template v-slot:image>
+    <img src="./images/many-planes.png" alt="So many planes" />
+</template>
+
+---
+layout: two-images
+sectionNumber: "3"
+
+fig1Label: Military plane
+fig2Label: Military aircraft count
+---
+
+## Military planes. SO MANY military planes.
+
+<template v-slot:image1>
+    <img src="./images/military.png" alt="Military aircraft" />
+</template>
+
+<template v-slot:image2>
+    <img src="./images/military-count.png" alt="Military count" />
+</template>
+
+<style>
+    .ti-image-frame img {
+        object-fit: contain;
+    }
+</style>
+
+---
+layout: two-images
+sectionNumber: "3"
+
+fig1Label: The Notification
+fig2Label: The aircraft
+---
+
+## ...A balloon?
+
+<template v-slot:image1>
+    <img src="./images/balloon-notification.png" alt="Balloon notification" />
+</template>
+
+<template v-slot:image2>
+    <img src="./images/balloon.png" alt="Balloon" />
+</template>
+
+<style>
+    .ti-image-frame img {
+        object-fit: contain;
+    }
+</style>
+
+---
 layout: end
 ---
 
